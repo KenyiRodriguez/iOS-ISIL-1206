@@ -50,11 +50,11 @@ extension CSMBluetoothManager: CBCentralManagerDelegate {
         let controller = UIApplication.shared.keyWindow?.rootViewController ?? UIViewController()
         
         if state == .unauthorized || state == .poweredOff {
-            controller.showAltert(withTitle: title, withMessage: message, withButtons: [accept], withCancelButton: cancel, withSelectionButtonIndex: { (index) in
+            controller.showAlert(withTitle: title, withMessage: message, withButtons: [accept], withCancelButton: cancel, withSelectionButtonIndex: { (index) in
                 UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
             }, withActionCancel: nil)
         }else{
-            controller.showAltert(withTitle: title, withMessage: message, withAcceptButton: accept, withCompletion: nil)
+            controller.showAlert(withTitle: title, withMessage: message, withAcceptButton: accept, withCompletion: nil)
         }
     }
 }

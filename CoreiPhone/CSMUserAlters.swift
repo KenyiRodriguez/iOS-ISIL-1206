@@ -37,7 +37,7 @@ public extension UIViewController{
     }
     
     
-    func showAltert(withTitle title: String, withMessage message : String, withAcceptButton accept: String, withCompletion completion : (() -> Void)?){
+    func showAlert(withTitle title: String, withMessage message : String, withAcceptButton accept: String, withCompletion completion : (() -> Void)?){
         
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
@@ -51,7 +51,7 @@ public extension UIViewController{
         self.present(alertController, animated: true, completion: nil)
     }
     
-    func showAltert(withTitle title: String, withMessage message : String, withButtons buttons: [String], withCancelButton cancelButton: String, withSelectionButtonIndex completion: @escaping(_ btnIndex : Int) -> Void, withActionCancel cancel: (() -> ())?) {
+    func showAlert(withTitle title: String, withMessage message : String, withButtons buttons: [String], withCancelButton cancelButton: String, withSelectionButtonIndex completion: @escaping(_ btnIndex : Int) -> Void, withActionCancel cancel: (() -> ())?) {
         
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         

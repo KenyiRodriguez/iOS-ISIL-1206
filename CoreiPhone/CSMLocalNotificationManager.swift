@@ -90,7 +90,7 @@ public class CSMLocalNotificationManager: NSObject {
                 let cancel = "Cancel"
                 let controller = UIApplication.shared.keyWindow?.rootViewController ?? UIViewController()
         
-                controller.showAltert(withTitle: title, withMessage: message, withButtons: [accept], withCancelButton: cancel, withSelectionButtonIndex: { (index) in
+                controller.showAlert(withTitle: title, withMessage: message, withButtons: [accept], withCancelButton: cancel, withSelectionButtonIndex: { (index) in
                     
                     UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
                     

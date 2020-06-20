@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G3020" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Brand" representedClassName="Brand" syncable="YES" codeGenerationType="class">
+        <attribute name="brand_name" optional="YES" attributeType="String"/>
+        <attribute name="brand_origin" optional="YES" attributeType="String"/>
+        <attribute name="brand_web" optional="YES" attributeType="String"/>
+        <relationship name="brand_models" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Model" inverseName="model_brand" inverseEntity="Model"/>
+    </entity>
+    <entity name="Model" representedClassName="Model" syncable="YES" codeGenerationType="class">
+        <attribute name="model_name" optional="YES" attributeType="String"/>
+        <attribute name="model_releaseYear" optional="YES" attributeType="String"/>
+        <attribute name="model_type" optional="YES" attributeType="String"/>
+        <attribute name="model_urlImage" optional="YES" attributeType="String"/>
+        <relationship name="model_brand" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="brand_models" inverseEntity="Brand"/>
+    </entity>
+    <elements>
+        <element name="Brand" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Model" positionX="148.0078125" positionY="46.72265625" width="128" height="118"/>
+    </elements>
+</model>
