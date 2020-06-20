@@ -9,23 +9,95 @@
 /* Begin PBXBuildFile section */
 		FBA0BF6E249EAC26004D8E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF6D249EAC26004D8E15 /* AppDelegate.swift */; };
 		FBA0BF70249EAC26004D8E15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF6F249EAC26004D8E15 /* SceneDelegate.swift */; };
-		FBA0BF72249EAC26004D8E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF71249EAC26004D8E15 /* ViewController.swift */; };
-		FBA0BF75249EAC26004D8E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA0BF73249EAC26004D8E15 /* Main.storyboard */; };
 		FBA0BF78249EAC26004D8E15 /* Sesion11_02.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF76249EAC26004D8E15 /* Sesion11_02.xcdatamodeld */; };
 		FBA0BF7A249EAC27004D8E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA0BF79249EAC27004D8E15 /* Assets.xcassets */; };
 		FBA0BF7D249EAC27004D8E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA0BF7B249EAC27004D8E15 /* LaunchScreen.storyboard */; };
+		FBA0BF8C249EB148004D8E15 /* AlbumBE.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF8B249EB148004D8E15 /* AlbumBE.swift */; };
+		FBA0BFAD249EB16A004D8E15 /* CSMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF8E249EB169004D8E15 /* CSMTextView.swift */; };
+		FBA0BFAE249EB16A004D8E15 /* CSMLocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF8F249EB169004D8E15 /* CSMLocalAuthentication.swift */; };
+		FBA0BFAF249EB16A004D8E15 /* CSMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF90249EB169004D8E15 /* CSMLabel.swift */; };
+		FBA0BFB0249EB16A004D8E15 /* CSMDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF91249EB169004D8E15 /* CSMDateManager.swift */; };
+		FBA0BFB1249EB16A004D8E15 /* CSMCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF92249EB169004D8E15 /* CSMCrypto.swift */; };
+		FBA0BFB2249EB16A004D8E15 /* CSMBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF93249EB169004D8E15 /* CSMBluetoothManager.swift */; };
+		FBA0BFB3249EB16A004D8E15 /* CSMColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF94249EB169004D8E15 /* CSMColorManager.swift */; };
+		FBA0BFB4249EB16A004D8E15 /* CSMNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF95249EB169004D8E15 /* CSMNumber.swift */; };
+		FBA0BFB5249EB16A004D8E15 /* CSMKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF96249EB169004D8E15 /* CSMKeyChain.swift */; };
+		FBA0BFB6249EB16A004D8E15 /* CSMLocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF97249EB169004D8E15 /* CSMLocalNotificationManager.swift */; };
+		FBA0BFB7249EB16A004D8E15 /* CSMSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF98249EB169004D8E15 /* CSMSearchBar.swift */; };
+		FBA0BFB8249EB16A004D8E15 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FBA0BF99249EB169004D8E15 /* .gitkeep */; };
+		FBA0BFB9249EB16A004D8E15 /* CSMCustomStarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF9A249EB169004D8E15 /* CSMCustomStarsView.swift */; };
+		FBA0BFBA249EB16A004D8E15 /* CSMImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF9B249EB169004D8E15 /* CSMImage.swift */; };
+		FBA0BFBB249EB16A004D8E15 /* CSMJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF9C249EB169004D8E15 /* CSMJSON.swift */; };
+		FBA0BFBC249EB16A004D8E15 /* CSMPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF9D249EB169004D8E15 /* CSMPageControl.swift */; };
+		FBA0BFBD249EB16A004D8E15 /* CSMCircularInfinityCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF9E249EB169004D8E15 /* CSMCircularInfinityCollectionView.swift */; };
+		FBA0BFBE249EB16A004D8E15 /* CSMAutomaticStatusBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BF9F249EB169004D8E15 /* CSMAutomaticStatusBarColor.swift */; };
+		FBA0BFBF249EB16A004D8E15 /* CSMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA0249EB169004D8E15 /* CSMTextField.swift */; };
+		FBA0BFC0249EB16A004D8E15 /* CSMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA1249EB169004D8E15 /* CSMButton.swift */; };
+		FBA0BFC1249EB16A004D8E15 /* CSMTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA2249EB169004D8E15 /* CSMTableView.swift */; };
+		FBA0BFC2249EB16A004D8E15 /* CSMCustomCollectionViewVerticalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA3249EB169004D8E15 /* CSMCustomCollectionViewVerticalLayout.swift */; };
+		FBA0BFC3249EB16A004D8E15 /* CSMImageDownloaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA4249EB169004D8E15 /* CSMImageDownloaded.swift */; };
+		FBA0BFC4249EB16A004D8E15 /* CSMSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA5249EB169004D8E15 /* CSMSwitch.swift */; };
+		FBA0BFC5249EB16A004D8E15 /* CSMLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA6249EB169004D8E15 /* CSMLocationManager.swift */; };
+		FBA0BFC6249EB16A004D8E15 /* CSMUserAlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA7249EB169004D8E15 /* CSMUserAlters.swift */; };
+		FBA0BFC7249EB16A004D8E15 /* CSMWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA8249EB169004D8E15 /* CSMWebServiceManager.swift */; };
+		FBA0BFC8249EB16A004D8E15 /* CSMSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFA9249EB169004D8E15 /* CSMSlider.swift */; };
+		FBA0BFC9249EB16A004D8E15 /* CSMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFAA249EB169004D8E15 /* CSMImageView.swift */; };
+		FBA0BFCA249EB16A004D8E15 /* CSMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFAB249EB169004D8E15 /* CSMView.swift */; };
+		FBA0BFCB249EB16A004D8E15 /* CSMString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFAC249EB169004D8E15 /* CSMString.swift */; };
+		FBA0BFCD249EB65E004D8E15 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFCC249EB65E004D8E15 /* AlbumsViewController.swift */; };
+		FBA0BFCF249EB66D004D8E15 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFCE249EB66D004D8E15 /* AlbumCollectionViewCell.swift */; };
+		FBA0BFD3249EB99A004D8E15 /* Albums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA0BFD2249EB99A004D8E15 /* Albums.storyboard */; };
+		FBA0BFD5249EBAC0004D8E15 /* AlbumWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFD4249EBAC0004D8E15 /* AlbumWS.swift */; };
+		FBA0BFD7249EBAF3004D8E15 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFD6249EBAF3004D8E15 /* Closures.swift */; };
+		FBA0BFD9249EBD9C004D8E15 /* AlbumBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0BFD8249EBD9C004D8E15 /* AlbumBL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBA0BF6A249EAC26004D8E15 /* Sesion11-02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sesion11-02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA0BF6D249EAC26004D8E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA0BF6F249EAC26004D8E15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBA0BF71249EAC26004D8E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBA0BF74249EAC26004D8E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBA0BF77249EAC26004D8E15 /* Sesion11_02.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sesion11_02.xcdatamodel; sourceTree = "<group>"; };
 		FBA0BF79249EAC27004D8E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA0BF7C249EAC27004D8E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA0BF7E249EAC27004D8E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA0BF8B249EB148004D8E15 /* AlbumBE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumBE.swift; sourceTree = "<group>"; };
+		FBA0BF8E249EB169004D8E15 /* CSMTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMTextView.swift; sourceTree = "<group>"; };
+		FBA0BF8F249EB169004D8E15 /* CSMLocalAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMLocalAuthentication.swift; sourceTree = "<group>"; };
+		FBA0BF90249EB169004D8E15 /* CSMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMLabel.swift; sourceTree = "<group>"; };
+		FBA0BF91249EB169004D8E15 /* CSMDateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMDateManager.swift; sourceTree = "<group>"; };
+		FBA0BF92249EB169004D8E15 /* CSMCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMCrypto.swift; sourceTree = "<group>"; };
+		FBA0BF93249EB169004D8E15 /* CSMBluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMBluetoothManager.swift; sourceTree = "<group>"; };
+		FBA0BF94249EB169004D8E15 /* CSMColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMColorManager.swift; sourceTree = "<group>"; };
+		FBA0BF95249EB169004D8E15 /* CSMNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMNumber.swift; sourceTree = "<group>"; };
+		FBA0BF96249EB169004D8E15 /* CSMKeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMKeyChain.swift; sourceTree = "<group>"; };
+		FBA0BF97249EB169004D8E15 /* CSMLocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMLocalNotificationManager.swift; sourceTree = "<group>"; };
+		FBA0BF98249EB169004D8E15 /* CSMSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMSearchBar.swift; sourceTree = "<group>"; };
+		FBA0BF99249EB169004D8E15 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		FBA0BF9A249EB169004D8E15 /* CSMCustomStarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMCustomStarsView.swift; sourceTree = "<group>"; };
+		FBA0BF9B249EB169004D8E15 /* CSMImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMImage.swift; sourceTree = "<group>"; };
+		FBA0BF9C249EB169004D8E15 /* CSMJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMJSON.swift; sourceTree = "<group>"; };
+		FBA0BF9D249EB169004D8E15 /* CSMPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMPageControl.swift; sourceTree = "<group>"; };
+		FBA0BF9E249EB169004D8E15 /* CSMCircularInfinityCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMCircularInfinityCollectionView.swift; sourceTree = "<group>"; };
+		FBA0BF9F249EB169004D8E15 /* CSMAutomaticStatusBarColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMAutomaticStatusBarColor.swift; sourceTree = "<group>"; };
+		FBA0BFA0249EB169004D8E15 /* CSMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMTextField.swift; sourceTree = "<group>"; };
+		FBA0BFA1249EB169004D8E15 /* CSMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMButton.swift; sourceTree = "<group>"; };
+		FBA0BFA2249EB169004D8E15 /* CSMTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMTableView.swift; sourceTree = "<group>"; };
+		FBA0BFA3249EB169004D8E15 /* CSMCustomCollectionViewVerticalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMCustomCollectionViewVerticalLayout.swift; sourceTree = "<group>"; };
+		FBA0BFA4249EB169004D8E15 /* CSMImageDownloaded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMImageDownloaded.swift; sourceTree = "<group>"; };
+		FBA0BFA5249EB169004D8E15 /* CSMSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMSwitch.swift; sourceTree = "<group>"; };
+		FBA0BFA6249EB169004D8E15 /* CSMLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMLocationManager.swift; sourceTree = "<group>"; };
+		FBA0BFA7249EB169004D8E15 /* CSMUserAlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMUserAlters.swift; sourceTree = "<group>"; };
+		FBA0BFA8249EB169004D8E15 /* CSMWebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMWebServiceManager.swift; sourceTree = "<group>"; };
+		FBA0BFA9249EB169004D8E15 /* CSMSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMSlider.swift; sourceTree = "<group>"; };
+		FBA0BFAA249EB169004D8E15 /* CSMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMImageView.swift; sourceTree = "<group>"; };
+		FBA0BFAB249EB169004D8E15 /* CSMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMView.swift; sourceTree = "<group>"; };
+		FBA0BFAC249EB169004D8E15 /* CSMString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMString.swift; sourceTree = "<group>"; };
+		FBA0BFCC249EB65E004D8E15 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		FBA0BFCE249EB66D004D8E15 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		FBA0BFD2249EB99A004D8E15 /* Albums.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Albums.storyboard; sourceTree = "<group>"; };
+		FBA0BFD4249EBAC0004D8E15 /* AlbumWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumWS.swift; sourceTree = "<group>"; };
+		FBA0BFD6249EBAF3004D8E15 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		FBA0BFD8249EBD9C004D8E15 /* AlbumBL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumBL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +130,117 @@
 		FBA0BF6C249EAC26004D8E15 /* Sesion11-02 */ = {
 			isa = PBXGroup;
 			children = (
+				FBA0BF8D249EB169004D8E15 /* CoreiPhone */,
+				FBA0BF8A249EB11D004D8E15 /* General */,
+				FBA0BF87249EB107004D8E15 /* iPhone */,
+				FBA0BF86249EB0FD004D8E15 /* Entities */,
+				FBA0BF85249EB0F5004D8E15 /* Logic */,
+				FBA0BF84249EB0EC004D8E15 /* WebService */,
 				FBA0BF6D249EAC26004D8E15 /* AppDelegate.swift */,
 				FBA0BF6F249EAC26004D8E15 /* SceneDelegate.swift */,
-				FBA0BF71249EAC26004D8E15 /* ViewController.swift */,
-				FBA0BF73249EAC26004D8E15 /* Main.storyboard */,
 				FBA0BF79249EAC27004D8E15 /* Assets.xcassets */,
 				FBA0BF7B249EAC27004D8E15 /* LaunchScreen.storyboard */,
 				FBA0BF7E249EAC27004D8E15 /* Info.plist */,
 				FBA0BF76249EAC26004D8E15 /* Sesion11_02.xcdatamodeld */,
 			);
 			path = "Sesion11-02";
+			sourceTree = "<group>";
+		};
+		FBA0BF84249EB0EC004D8E15 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BFD4249EBAC0004D8E15 /* AlbumWS.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		FBA0BF85249EB0F5004D8E15 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BFD8249EBD9C004D8E15 /* AlbumBL.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		FBA0BF86249EB0FD004D8E15 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BF8B249EB148004D8E15 /* AlbumBE.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FBA0BF87249EB107004D8E15 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BF89249EB115004D8E15 /* Views */,
+				FBA0BF88249EB10D004D8E15 /* Classes */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		FBA0BF88249EB10D004D8E15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BFCC249EB65E004D8E15 /* AlbumsViewController.swift */,
+				FBA0BFCE249EB66D004D8E15 /* AlbumCollectionViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FBA0BF89249EB115004D8E15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BFD2249EB99A004D8E15 /* Albums.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBA0BF8A249EB11D004D8E15 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BFD6249EBAF3004D8E15 /* Closures.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FBA0BF8D249EB169004D8E15 /* CoreiPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0BF8E249EB169004D8E15 /* CSMTextView.swift */,
+				FBA0BF8F249EB169004D8E15 /* CSMLocalAuthentication.swift */,
+				FBA0BF90249EB169004D8E15 /* CSMLabel.swift */,
+				FBA0BF91249EB169004D8E15 /* CSMDateManager.swift */,
+				FBA0BF92249EB169004D8E15 /* CSMCrypto.swift */,
+				FBA0BF93249EB169004D8E15 /* CSMBluetoothManager.swift */,
+				FBA0BF94249EB169004D8E15 /* CSMColorManager.swift */,
+				FBA0BF95249EB169004D8E15 /* CSMNumber.swift */,
+				FBA0BF96249EB169004D8E15 /* CSMKeyChain.swift */,
+				FBA0BF97249EB169004D8E15 /* CSMLocalNotificationManager.swift */,
+				FBA0BF98249EB169004D8E15 /* CSMSearchBar.swift */,
+				FBA0BF99249EB169004D8E15 /* .gitkeep */,
+				FBA0BF9A249EB169004D8E15 /* CSMCustomStarsView.swift */,
+				FBA0BF9B249EB169004D8E15 /* CSMImage.swift */,
+				FBA0BF9C249EB169004D8E15 /* CSMJSON.swift */,
+				FBA0BF9D249EB169004D8E15 /* CSMPageControl.swift */,
+				FBA0BF9E249EB169004D8E15 /* CSMCircularInfinityCollectionView.swift */,
+				FBA0BF9F249EB169004D8E15 /* CSMAutomaticStatusBarColor.swift */,
+				FBA0BFA0249EB169004D8E15 /* CSMTextField.swift */,
+				FBA0BFA1249EB169004D8E15 /* CSMButton.swift */,
+				FBA0BFA2249EB169004D8E15 /* CSMTableView.swift */,
+				FBA0BFA3249EB169004D8E15 /* CSMCustomCollectionViewVerticalLayout.swift */,
+				FBA0BFA4249EB169004D8E15 /* CSMImageDownloaded.swift */,
+				FBA0BFA5249EB169004D8E15 /* CSMSwitch.swift */,
+				FBA0BFA6249EB169004D8E15 /* CSMLocationManager.swift */,
+				FBA0BFA7249EB169004D8E15 /* CSMUserAlters.swift */,
+				FBA0BFA8249EB169004D8E15 /* CSMWebServiceManager.swift */,
+				FBA0BFA9249EB169004D8E15 /* CSMSlider.swift */,
+				FBA0BFAA249EB169004D8E15 /* CSMImageView.swift */,
+				FBA0BFAB249EB169004D8E15 /* CSMView.swift */,
+				FBA0BFAC249EB169004D8E15 /* CSMString.swift */,
+			);
+			name = CoreiPhone;
+			path = ../../../CoreiPhone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +303,8 @@
 			files = (
 				FBA0BF7D249EAC27004D8E15 /* LaunchScreen.storyboard in Resources */,
 				FBA0BF7A249EAC27004D8E15 /* Assets.xcassets in Resources */,
-				FBA0BF75249EAC26004D8E15 /* Main.storyboard in Resources */,
+				FBA0BFB8249EB16A004D8E15 /* .gitkeep in Resources */,
+				FBA0BFD3249EB99A004D8E15 /* Albums.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +315,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA0BFB1249EB16A004D8E15 /* CSMCrypto.swift in Sources */,
+				FBA0BFB9249EB16A004D8E15 /* CSMCustomStarsView.swift in Sources */,
 				FBA0BF78249EAC26004D8E15 /* Sesion11_02.xcdatamodeld in Sources */,
-				FBA0BF72249EAC26004D8E15 /* ViewController.swift in Sources */,
+				FBA0BFBB249EB16A004D8E15 /* CSMJSON.swift in Sources */,
+				FBA0BFB6249EB16A004D8E15 /* CSMLocalNotificationManager.swift in Sources */,
+				FBA0BFB0249EB16A004D8E15 /* CSMDateManager.swift in Sources */,
+				FBA0BF8C249EB148004D8E15 /* AlbumBE.swift in Sources */,
+				FBA0BFBC249EB16A004D8E15 /* CSMPageControl.swift in Sources */,
+				FBA0BFC5249EB16A004D8E15 /* CSMLocationManager.swift in Sources */,
+				FBA0BFC2249EB16A004D8E15 /* CSMCustomCollectionViewVerticalLayout.swift in Sources */,
+				FBA0BFC9249EB16A004D8E15 /* CSMImageView.swift in Sources */,
+				FBA0BFB4249EB16A004D8E15 /* CSMNumber.swift in Sources */,
+				FBA0BFBF249EB16A004D8E15 /* CSMTextField.swift in Sources */,
+				FBA0BFC7249EB16A004D8E15 /* CSMWebServiceManager.swift in Sources */,
+				FBA0BFC6249EB16A004D8E15 /* CSMUserAlters.swift in Sources */,
 				FBA0BF6E249EAC26004D8E15 /* AppDelegate.swift in Sources */,
+				FBA0BFC8249EB16A004D8E15 /* CSMSlider.swift in Sources */,
+				FBA0BFCA249EB16A004D8E15 /* CSMView.swift in Sources */,
+				FBA0BFB2249EB16A004D8E15 /* CSMBluetoothManager.swift in Sources */,
+				FBA0BFCD249EB65E004D8E15 /* AlbumsViewController.swift in Sources */,
+				FBA0BFD9249EBD9C004D8E15 /* AlbumBL.swift in Sources */,
+				FBA0BFAF249EB16A004D8E15 /* CSMLabel.swift in Sources */,
 				FBA0BF70249EAC26004D8E15 /* SceneDelegate.swift in Sources */,
+				FBA0BFBE249EB16A004D8E15 /* CSMAutomaticStatusBarColor.swift in Sources */,
+				FBA0BFC3249EB16A004D8E15 /* CSMImageDownloaded.swift in Sources */,
+				FBA0BFCF249EB66D004D8E15 /* AlbumCollectionViewCell.swift in Sources */,
+				FBA0BFB7249EB16A004D8E15 /* CSMSearchBar.swift in Sources */,
+				FBA0BFC0249EB16A004D8E15 /* CSMButton.swift in Sources */,
+				FBA0BFD7249EBAF3004D8E15 /* Closures.swift in Sources */,
+				FBA0BFC1249EB16A004D8E15 /* CSMTableView.swift in Sources */,
+				FBA0BFB3249EB16A004D8E15 /* CSMColorManager.swift in Sources */,
+				FBA0BFCB249EB16A004D8E15 /* CSMString.swift in Sources */,
+				FBA0BFAE249EB16A004D8E15 /* CSMLocalAuthentication.swift in Sources */,
+				FBA0BFAD249EB16A004D8E15 /* CSMTextView.swift in Sources */,
+				FBA0BFB5249EB16A004D8E15 /* CSMKeyChain.swift in Sources */,
+				FBA0BFBD249EB16A004D8E15 /* CSMCircularInfinityCollectionView.swift in Sources */,
+				FBA0BFBA249EB16A004D8E15 /* CSMImage.swift in Sources */,
+				FBA0BFD5249EBAC0004D8E15 /* AlbumWS.swift in Sources */,
+				FBA0BFC4249EB16A004D8E15 /* CSMSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBA0BF73249EAC26004D8E15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBA0BF74249EAC26004D8E15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBA0BF7B249EAC27004D8E15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

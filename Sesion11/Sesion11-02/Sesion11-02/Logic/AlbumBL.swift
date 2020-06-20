@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class AlbumBL {
+    
+    class func getAlbums(_ success: @escaping Albums) {
+        
+        AlbumWS.getAlbums { (arrayAlbums) in
+            
+            let arraySorted = arrayAlbums.sorted(by: {
+                return $0.album_name < $1.album_name
+            })
+            
+            success(arraySorted)
+        }
+    }
+}

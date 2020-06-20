@@ -7,3 +7,5 @@
 //
 
 import Foundation
+
+typealias Albums = (_ arrayAlbums: [AlbumBE]) -> Void
